@@ -34,7 +34,7 @@ class FileTile extends Component {
 		return (
 			<GridTile
 				title={file.name}
-				subtitle={<span>{file.size} kb</span>}
+				subtitle={<span>{file.type} - {file.size} kb</span>}
 				actionIcon={<IconButton onClick={() => {downloadFile(file)}}><GetApp color="white"/></IconButton>}
 				className="overlap animated zoomIn"
 				containerElement={<Paper zDepth={1}/>}
