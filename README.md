@@ -4,4 +4,4 @@ Add, preview, and download files.
 
 1. `npm install`
 2. `npm start`
-3. visit `http://localhost:8080`
+3. point browser to `localhost:3000`

@@ -2,9 +2,13 @@
   "name": "FilePreview",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --hot --content-base ./server/public --config ./webpack.config.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "react-scripts": "0.7.0",
     "babel-core": "^6.7.2",
     "babel-eslint": "^6.0.4",
     "babel-loader": "^6.2.4",
