@@ -1,0 +1,43 @@
+.preview:hover .text-content{
+    opacity: 1;
+}
+
+.preview:hover .image{
+    opacity: 0.2;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.overlap
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scale-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+#text {
+    z-index: 50;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.text-content {
+    opacity: 0;
+}
