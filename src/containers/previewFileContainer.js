@@ -18,7 +18,7 @@ class PreviewFileContainer extends Component {
 
 	render() {
 		const {preview} = this.props;
-		const textFiles = ['pdf', 'txt', 'json', 'gifx', 'php', 'java'];
+		const textFiles = ['pdf', 'txt', 'json', 'gifx', 'php', 'java', 'mp4', 'avi', 'mov'];
 		let dialogSize = {
 			height: 'auto',
 			width: 'auto',

@@ -33,15 +33,15 @@ const initialState = [
 		type: 'csv'
 	},
 	{
-		url: 'http://www.textfiles.com/drugs/acidinf.txt',
+		url: '/example_files/readme_example.txt',
 		size: '2',
-		name: 'Acid',
+		name: 'Readme',
 		type: 'txt'
 	},
 	{
-		url: 'http://techslides.com/demos/sample-videos/small.mp4',
-		size: '10000',
-		name: 'Random_Video',
+		url: '/example_files/example_handles.mp4',
+		size: '34000',
+		name: 'NBA_Handles',
 		type: 'mp4'
 	},
 	{
@@ -61,7 +61,25 @@ const initialState = [
 		size: '3000',
 		name: 'Mario',
 		type: 'png'
-	}
+	},
+	{
+		url: 'https://s-media-cache-ak0.pinimg.com/originals/d0/46/c3/d046c32c4b400a7ee73eb8b5e2d2ee71.png',
+		size: '3000',
+		name: 'Mario',
+		type: 'png'
+	},
+	{
+		url: '/example_files/example_package.json',
+		size: '500',
+		name: 'Package',
+		type: 'json'
+	},
+	{
+		url: '/example_files/example_stronger.mp3',
+		size: '4000',
+		name: 'Stronger',
+		type: 'json'
+	}		
 ];
 
 export default function addFileReducer(state = initialState, action) {
